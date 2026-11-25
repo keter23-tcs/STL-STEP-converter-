@@ -1,0 +1,23 @@
+STL/STEP zu DAE Konverter  (deutsche Anleitung; English: README.txt)
+====================================================================
+
+So geht's:
+  1. STL- oder STEP-Dateien (.stl, .step, .stp) in den Ordner "Input" legen.
+  2. "STL-Converter.exe" doppelklicken (Start dauert ca. 3 Sekunden).
+  3. Im Menü "1" eingeben und Enter drücken.
+  4. Die fertigen DAE-Dateien liegen im Ordner "Output".
+
+Das Programm selbst ist auf Englisch. Die Menüpunkte:
+  [1] Convert all files        = Alle Dateien umwandeln (STL und STEP)
+  [2] Show files in Input      = Dateien im Input-Ordner anzeigen
+  [3] Move finished files      = Fertige Dateien nach "Input\done" verschieben: ON/OFF (Standard: ON)
+  [4] STEP quality             = STEP-Qualität: coarse / medium / fine = grob / mittel / fein (Standard: medium)
+  [0] Quit                     = Beenden
+
+Hinweise:
+  - Die DAE-Dateien sind in Millimetern mit Z-Achse nach oben gespeichert. SketchUp übernimmt dadurch die Maße 1:1.
+  - STEP: Einzelteile, Baugruppen und Farben bleiben erhalten (in SketchUp als eigene Gruppen). Die Einheit der STEP-Datei wird automatisch in mm umgerechnet.
+  - STL hat keine Farben und keine Teile, die DAE bekommt ein neutrales Grau.
+  - Dateien aus Notion NICHT über den Browser speichern (Strg+S), dabei gehen STL-Dateien kaputt. Stattdessen "..." -> "Herunterladen".
+  - "STL-Converter.exe" und die Ordner "Input" und "Output" müssen zusammen in einem Ordner liegen.
+  - Windows warnt beim ersten Start evtl. vor der unbekannten .exe: "Weitere Informationen" -> "Trotzdem ausführen".
